@@ -1,0 +1,35 @@
+name            name of animal
+size            size from 1-10
+            examples:
+        1   < mouse
+        2   mouse
+        3   squirrel
+        4   cat
+        5   wolf
+        6   gazelle
+        7   moose
+        8   hippo
+        9   elephant
+        10  > elephant
+diet            0-herbivore, 1-omnivore, 2-carnivore 
+damage blunt    how hard it can hit compared to animals of similar size:  0-3
+damage sharp    how dangerous it's teeth,claws,etc. are compared to animals of similar size: 0-3
+toughness       toughness relative to size 1-5
+water mobility  
+        1   drowns
+        2   can float/swim
+        3   swims well, tall enough to stand in shallow water
+        4   can be under water for prolonged periods
+        5   lives in the sea
+land mobility
+        1   suffocates
+        2   can bounce around for a bit
+        3   can walk/run
+        4   very fast/skilled climber
+        5   cheetah or monkey level stuff
+preferred ecosystem
+        1   forest-ish
+        2   water/wet
+        3   savannah/desert
+        4   cold/urban/difficult terrain
+won against     list of line indexes won against in order, separated by period
